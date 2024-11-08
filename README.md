@@ -15,11 +15,5 @@ El dataset utilizado está disponible en Kaggle: [Beijing Pollution Dataset](htt
 - **TensorFlow** / **Keras** para la creación y entrenamiento del modelo LSTM.
 - **Python** para la preparación de datos y análisis.
 
-## Estructura del Proyecto
-- `data/`: Contiene el dataset en formato CSV.
-- `notebooks/`: Jupyter notebooks con el análisis exploratorio y el entrenamiento del modelo.
-- `model/`: Contiene los modelos LSTM entrenados en formatos `.h5` y `.keras`.
-- `results/`: Métricas y visualizaciones de los resultados de los modelos.
-
 ## Resultados
 Comparación entre los modelos univariables y multivariables para observar el impacto de incluir contexto meteorológico en la precisión de las predicciones.
